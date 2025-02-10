@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(1, 22, 36);
+    color: aliceblue;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: rgb(227, 233, 240);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: rgb(197, 24, 53);
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 10%;
+    margin-top: 60px; /* Menghindari header tetap menutupi bagian atas halaman */
+}
+
+.home-content {
+    max-width: 600px;
+    margin-bottom: 40px; /* Memberikan jarak antara teks dan tombol */
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(44, 192, 250);
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+/* Styling untuk tombol di bawah */
+.btn-box {
+    display: flex;
+    flex-direction: row; /* Tombol akan berada dalam satu baris */
+    gap: 20px; /* Jarak antar tombol */
+    width: 100%; 
+    justify-content: flex-start; /* Menempatkan tombol di kiri */
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background: rgb(104, 188, 228);
+    border: 2px solid rgb(91, 236, 241);
+    border-radius: 8px;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-box a:hover {
+    background: transparent;
+    color: rgb(82, 215, 255)2, 255);
+}
+
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: rgb(13, 185, 238);
+    border-color: rgb(15, 135, 233);
+}
+
+.btn-box a ::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+    z-index: -1;
+    trana
+}
+
+.home-sci {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;  /* Agar ditempatkan di tengah secara horizontal */
+    transform: translateX(-50%);  /* Memastikan elemen benar-benar terpusat */
+    width: 170px;
+    display: flex;  /* Membuat tombol berada dalam satu baris */
+    justify-content: space-between;  /* Memberikan jarak antar tombol */
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid blue;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.home-sci a:hover {
+    background-color: blue;  /* Mengubah warna background saat hover */
+    color: white;  /* Mengubah warna teks saat hover */
+}
+
+.profile-img {
+    width: 150px;          /* Menentukan ukuran gambar */
+    height: 150px;         /* Menentukan tinggi gambar */
+    border-radius: 50%;    /* Membuat gambar menjadi lingkaran */
+    object-fit: cover;     /* Memastikan gambar terpotong dengan proporsional jika diperlukan */
+    margin-bottom: 20px;   /* Memberikan jarak di bawah gambar */
+    border: 4px solid white; /* Optional: memberi border putih untuk efek estetika */
+}
+
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(1, 22, 36);
+    color: rgb(227, 233, 240);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
