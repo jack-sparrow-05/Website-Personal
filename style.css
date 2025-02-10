@@ -176,6 +176,94 @@ footer {
 }
 
 
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+    .home {
+        padding: 0 5%;
+    }
+    .home-content h1 {
+        font-size: 48px;
+    }
+    .home-content h3 {
+        font-size: 28px;
+    }
+    .home-content p {
+        font-size: 14px;
+    }
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+    .navbar a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 5%;
+    }
+    .navbar a {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .home {
+        padding: 0 5%;
+        margin-top: 80px;
+    }
+    .home-content h1 {
+        font-size: 42px;
+    }
+    .home-content h3 {
+        font-size: 24px;
+    }
+    .home-content p {
+        font-size: 14px;
+    }
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+    .btn-box {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px 5%;
+    }
+    .logo {
+        font-size: 22px;
+    }
+    .navbar a {
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .home {
+        padding: 0 5%;
+        margin-top: 80px;
+    }
+    .home-content h1 {
+        font-size: 36px;
+    }
+    .home-content h3 {
+        font-size: 20px;
+    }
+    .home-content p {
+        font-size: 12px;
+    }
+    .profile-img {
+        width: 80px;
+        height: 80px;
+    }
+    .home-sci a {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+}
 
 
 
